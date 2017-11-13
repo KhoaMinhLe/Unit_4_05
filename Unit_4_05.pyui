@@ -1,0 +1,125 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{70, 94}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "radius_label",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "C3C3C20B-797D-49F9-B43F-AC7FA0A82CB4",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter Radius:",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{180, 94}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "user_radius_textfield",
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "B42B0C1B-155A-4880-ACBC-3B51A6077B65",
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{70, 157}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "height_label",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "BA2CD9B2-048B-442B-81DE-C1E1A7EFC72F",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter Height:",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{180, 157}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "user_height_textfield",
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "1892CC3C-36E2-472C-80EA-9CDB22C19933",
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{241, 222}, {76, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_button",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "51228882-4CE7-443C-AE88-2D242A6BEFF1",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 15
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 310}, {540, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "answer_label",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "072E3F1A-ED4C-4CF8-93DD-856C4EFEFC81",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 20,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {540, 540}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
